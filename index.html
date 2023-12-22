@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" charset="UTF-8" defer></script>
+    <title>Rpg-Sistema de Conversão</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: rgb(208, 231, 252);
+        }
+
+        div {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sistema de conversão</h1>
+    <section>
+        <div>
+            <label>Insira o skill do personagem:</label>
+            <input type="number" id="velocidade">
+            <br>
+            <label>Insira o buff do personagem:</label>
+            <input type="number" id="espirito">
+            <br>
+            <button onclick="conversaoVel()">Calcular</button>
+        </div>
+
+        <p id="resultado"></p>
+        <p id="resultadoEsp"></p>
+    </section>
+
+    <section>
+        <div>
+            <label>Insira o reflexo:</label>
+            <input type="number" id="reflexo">
+            <br>
+            <label>Insira o taijutsu:</label>
+            <input type="number" id="taijutsu">
+            <br>
+            <button onclick="taiRef()">Calcular</button>
+        </div>
+
+        <div>
+            <p id="resultadoRef"></p>
+        </div>
+    </section>
+
+</body>
+
+</html>
